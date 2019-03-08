@@ -4,7 +4,7 @@ class Kettle extends EventEmitter {
     start(){
         setTimeout(() => {
             this.emit('ready', {
-
+                
             });
         })
     }
